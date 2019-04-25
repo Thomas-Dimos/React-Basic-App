@@ -8,6 +8,7 @@ export default class Login extends React.Component{
         this.state = {
             username: '',
             password: '',
+            buttonsColor: '#458B74'
         }
     }
 
@@ -54,7 +55,7 @@ export default class Login extends React.Component{
                     </div>
                 
                 </div>
-                <button className = "button" onClick = {this.login}  >
+                <button style = {{backgroundColor: this.state.buttonsColor}} className = "button" onClick = {() => {this.setState({buttonsColor: '#66CDAA'});this.login()}} >
                         Login
                 </button>
             </div>
