@@ -1,3 +1,5 @@
+Basic React app used for rendering in the browser the user events.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
