@@ -2,6 +2,63 @@
   text-align: center;
 }
 
+.mainContainer {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.inputs {
+  
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  width: 29%;
+  align-items: center;
+  border: 1px solid #458B74;
+  border-radius: 20;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+ 
+}
+
+.title {
+  color: #458B74;
+  font-Family: sans-serif;
+  margin-top: 2%;
+  font: 2em sans-serif;
+}
+
+.input1 {
+  border-Width: 1;
+  border-Color : #66CDAA;
+  border-Radius: 4;
+  margin-left: 11px;
+}
+
+.input2 {
+  border-Width: 1;
+  border-Color : #66CDAA;
+  border-Radius: 4;
+  margin-left: 15px;
+  margin-top: 5%;
+}
+
+.button {
+      background-Color: #458B74;
+      border-Color: #458B74;
+      border-Width: 1;
+      border-Radius: 20;
+      padding-left: 2%;
+      padding-right: 2%;
+      margin-Top: 2%;
+    
+  }
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
